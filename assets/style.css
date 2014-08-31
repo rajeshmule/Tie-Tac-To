@@ -1,0 +1,37 @@
+
+
+#main_container {
+	margin: 1px auto;
+	width: 300px;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Finger Paint', cursive;
+  font-size: 25px;
+}
+
+table {
+  margin: 1px auto;
+}
+
+.box_cell {
+	border: 1px solid black;
+	width: 75px;
+	height: 75px;
+  border-radius: 10px;
+  opacity: .75;
+  box-shadow: 2px 2px 2px #888888
+}
+
+.hover {
+  background-color: #aaa;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
