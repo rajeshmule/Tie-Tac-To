@@ -1,7 +1,11 @@
+body{
+ background-color: #b0e0e6;
+}
 
 
 #main_container {
 	margin: 1px auto;
+	
 	width: 300px;
 }
 
@@ -13,6 +17,7 @@
 
 table {
   margin: 1px auto;
+  margin-top: 90px;
 }
 
 .box_cell {
