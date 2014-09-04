@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
@@ -7,33 +7,23 @@
     tools:context="com.example.game.SplashActivity"
     tools:ignore="MergeRootFrame" >
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/tic"
+        tools:ignore="ContentDescription" />
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/frameLayout1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
         android:text="@string/TicTacTo"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:typeface="serif" />
 
-    <FrameLayout
-        android:id="@+id/frameLayout1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="170dp" >
-
-        <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="17dp"
-            android:src="@drawable/tic"
-            tools:ignore="ContentDescription" />
-
-    </FrameLayout>
-
-</RelativeLayout>
+</FrameLayout>
