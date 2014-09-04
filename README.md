@@ -4,4 +4,5 @@ Tic Tac To
 --------------------------------------------------------------------------------------------------------------
 
 ![alt tag](https://github.com/rajeshmule/Tie-Tac-To/blob/master/assets/Tie1.png)
+
 ![alt tag](https://github.com/rajeshmule/Tie-Tac-To/blob/master/assets/tie2.png)
