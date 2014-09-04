@@ -34,7 +34,7 @@ public class MainActivity extends ActionBarActivity {
 		web.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
 		web.getSettings().setLayoutAlgorithm(
 				WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
-		// web.getSettings().setUseWideViewPort(false);
+		web.getSettings().setUseWideViewPort(false);
 		web.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
 		web.requestFocusFromTouch();
 		web.setWebViewClient(new WebViewClient());
